@@ -15,7 +15,7 @@ function App() {
           <div className="App">
             <Switch>
               <Route exact path="/" component={Home}></Route>
-              <Route component={Home}></Route>
+              <Route component={NotFound}></Route>
             </Switch>
           </div>
         </BrowserRouter>
